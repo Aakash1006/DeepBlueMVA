@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EyeChange">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Cover Right Eye"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        android:layout_above="@id/left_eye_img"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+    <ImageView
+        android:id="@+id/left_eye_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/right_eye"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="Next"
+        android:textSize="20dp"
+        android:textColor="@color/newwhite"
+        android:background="@drawable/rounded_rectangle_light" />
+
+</RelativeLayout>
